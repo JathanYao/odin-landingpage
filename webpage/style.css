@@ -3,11 +3,13 @@
 body{
     font-family: Roboto, sans-serif;
     display: flex;
+    flex: 1;
     color: white;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    padding: 0px 20px;
 }
 
 a{
@@ -20,19 +22,22 @@ ul{
 
 .total-header-wrapper{
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 100vw;
+    max-width: 950px;
+    padding-bottom: 100px;
 }
 
 .upper-header-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .logo{
+    font-size: 24px;
+    color: #F9FAF8;
     font-weight: bold;
 }
 
@@ -41,3 +46,48 @@ ul{
     gap: 20px;
 }
 
+.lower-header-wrapper{
+    display: flex;
+    padding-top: 60px;
+    gap: 50px;
+}
+
+.sign-up-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.website-hero{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.website-intro{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.sign-up-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.left-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #92949bd5;
+}

@@ -142,3 +142,34 @@ ul{
     color: #1F2937;
     text-align: center;
 }
+
+.quote-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex: 1;
+    width: 100vw;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    display: flex;
+    flex: 1;
+    width: 50vw;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.quoted{
+    display: flex;
+    width: 50vw;
+    justify-content: flex-end;
+    align-items: end;
+    color:#1F2937;
+    font-weight: bold;
+}
